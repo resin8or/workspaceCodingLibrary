@@ -1,0 +1,16 @@
+package infiniteSkills.java.generics;
+
+public class Node <T> {
+
+	private T data;
+	private Node next;
+	
+	public Node (T data){
+		this.data = data;
+		next = null;
+	}
+	
+	T getData() {
+		return data;
+	}
+}
